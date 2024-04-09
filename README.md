@@ -2,14 +2,14 @@
 
 ![Infra](./images/image.png)
 
-### Install
+### 1. Install
 ```bash
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
 ```
 
 
-### Config
+### 2. Config
 #### Enable
 - Cloud DNS API
 - Compute Engine API
@@ -17,6 +17,9 @@ brew install hashicorp/tap/terraform
 
 #### Create service account for Terraform
 IAM & Admin -> Service accounts -> key -> json
+
+#### Create Cloud DNS Zone
+
 
 
 
